@@ -6,6 +6,9 @@ class First {
 
 class Second extends First {
     hello() {
-        super();
+        super.hello();
     }
 }
+
+const newHello = new Second();
+newHello.hello();
